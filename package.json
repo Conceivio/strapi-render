@@ -30,6 +30,7 @@
     "scripts/*"
   ],
   "scripts": {
+    "start": "strapi start",
     "build": "nx run-many --target=build --nx-ignore-cycles",
     "build:size": "cd examples/getstarted && yarn build",
     "build:ts": "nx run-many --target=build:ts --nx-ignore-cycles",
